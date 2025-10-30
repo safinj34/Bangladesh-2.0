@@ -181,3 +181,6 @@ thead tr{background-color: #09a15d3b;}
 .agree-button{text-align: center;}
 .table td{font-weight: 600;}
 .section-5 h1{font-weight: 900;}
+.not-agree-button{display: none;}
+.agree-button:hover .not-agree-button{display: block;}
+.not-agree-button-alignment{display: flex;justify-content: center;}
