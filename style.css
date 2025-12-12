@@ -132,59 +132,438 @@ body {
     color: white;
     border: none;
 }
-.section-4{margin: 0 100px;background-image: url(./assets/quote-bg.png);background-repeat: no-repeat;}
-.section-4 h1{color:rgba(0, 0, 0, 0.804)}
-.section-4 p{color:rgba(0, 0, 0, 0.804)}
-.section-6-heading{margin: 30px 100px;}
-.section-6-para{margin: 0px 100px;color: rgba(0, 0, 0, 0.505);}
-.section-6-para2{color: rgba(0, 0, 0, 0.505);}
-.section-6-card{margin: 50px 100px;display: flex;gap: 50px;}
-.section-6-card button {    background-color: #09a15d;
+
+.section-4 {
+    margin: 0 100px;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+
+.section-4 h1 {
+    color: rgba(0, 0, 0, 0.804)
+}
+
+.section-4 p {
+    color: rgba(0, 0, 0, 0.804)
+}
+
+.section-6-heading {
+    margin: 30px 100px;
+}
+
+.section-6-para {
+    margin: 0px 100px;
+    color: rgba(0, 0, 0, 0.505);
+}
+
+.section-6-para2 {
+    color: rgba(0, 0, 0, 0.505);
+}
+
+.section-6-card {
+    margin: 50px 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.section-6-card button {
+    background-color: #09a15d;
     width: 100px;
     height: 35px;
     border-radius: 10px;
     color: white;
-    border: none;}
+    border: none;
+}
 
-    .section-7-heading{text-align: center;}
-    .section-7-para{text-align: center;margin: 0 100px;color: rgba(0, 0, 0, 0.536);}
-    .card-3{display: flex;justify-content: center;}
-     .card-3 div{margin: 50px; padding: 10px 30px;border-radius: 10px;background-color: white;}
-     .other-ammount{border-radius: 10px;background-color: white; padding: 10px 30px;color: rgba(0, 0, 0, 0.561);display: flex;justify-content: center;margin: 0 auto;width: 900px;}
-     .done-button{background-color: #09a15d;
+.section-7-heading {
+    text-align: center;
+}
+
+.section-7-para {
+    text-align: center;
+    margin: 0 100px;
+    color: rgba(0, 0, 0, 0.536);
+}
+
+.card-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.card-3 div {
+    margin: 50px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.other-ammount {
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 30px;
+    color: rgba(0, 0, 0, 0.561);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.done-button {
+    background-color: #09a15d;
     width: 100px;
     height: 35px;
     border-radius: 10px;
     color: white;
-    border: none}
-    .button-div{display: flex;justify-content: center;margin: 20px;}
-    .section-8{background-color: #006a5027;margin: 50px 100px;padding: 100px;text-align: center;border-radius: 10px;}
-    .section-8-div{display: flex;justify-content: center;height: 40px;}
-    .text-box{width: 500px;border: none;border-radius: 10px;}
-    .subscribe-button{background-color: #09a15d;border-radius: 5px;
+    border: none
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.section-8 {
+    background-color: #006a5027;
+    margin: 50px 100px;
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.section-8-div {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.text-box {
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+}
+
+.subscribe-button {
+    background-color: #09a15d;
+    border-radius: 5px;
     color: white;
-    border: none}
-        .section-8 p{color: rgba(0, 0, 0, 0.506);}
-        footer{background-color: white;}
-        footer h1{text-align: center;border-bottom: #00000046 1px solid;margin: 30px 300px;padding: 50px;}
-        footer div{display: flex;justify-content: center;gap: 30px;padding: 50px;}
-        .footer-heading{width: 700px;margin: 30px;border-bottom: 1px solid black;}
+    border: none
+}
 
-        .section-8-div input::placeholder{padding-left: 20px;}
-        .section-5{margin: 0px 100px;padding: 20px;background-color: white;border-radius: 10px;}
-        .down-arrow{width: 10px;}
-.table td,th{border: 1px solid rgba(0, 0, 0, 0.415);padding: 20px}
-.table table{border-collapse: collapse;width: 100%;}
-.question{text-align: left;}     
-thead tr{background-color: #09a15d3b;}
-.table button{padding: 10px; background-color: #09a15d3b ;border: none;border-radius: 5px;font-weight: 600;}
-.agree-button{text-align: center;}
-.table td{font-weight: 600;}
-.section-5 h1{font-weight: 900;}
-.not-agree-button{display: none;}
-.agree-button:hover .not-agree-button{display: block;}
-.not-agree-button-alignment{display: flex;justify-content: center;margin-top: 20px;}
+.section-8 p {
+    color: rgba(0, 0, 0, 0.506);
+}
 
-@media screen and (max-width:576px){.section-1{margin: 0;flex-direction: column;}.nav{font-size: 12px; padding: 0;justify-content: space-around;}.signin{height: 25px;width: 50px;font-size: 8px;}card1{flex-direction: column;justify-content: center;align-items: center;}.card1 div {text-align: center;}.card2{flex-direction: column;gap: 10px;text-align: center;}.card1{flex-direction: column;}section-6{flex-direction: column;}..section-6-heading{margin: 0;}..section-6-para,.section-6-para2,{margin: 0;}.section-6-card{flex-direction: column;}.card-3{flex-direction: column;text-align: center;}input::placeholder{text-align: center;margin: 0;}.other-ammount{width: 80%;}footer,footer h1{text-align: center;margin: 0;flex-direction: column;}}
+footer {
+    background-color: white;
+}
 
-@media screen and (min-width:576px) and (max-width:992px){.section-1{flex-direction: column;justify-content: center;align-items: center;}.section-1 div{align-items: center;}.card1{flex-direction: column;justify-content: center;align-items: center;}.card1 div {text-align: center;}.card2{flex-direction: column;gap: 10px;text-align: center;}.section-6{flex-direction: column;}..section-6-heading{margin: 0;}..section-6-para,.section-6-para2,{margin: 0;}.section-6-card{flex-direction: column;}.card-3{flex-direction: column;text-align: center;}input::placeholder{text-align: center;margin: 0;}.other-ammount{width: 80%;}footer,footer h1{text-align: center;margin: 0;flex-direction: column;}}
+footer h1 {
+    text-align: center;
+    border-bottom: #00000046 1px solid;
+    margin: 30px 300px;
+    padding: 50px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.footer-heading {
+    width: 700px;
+    margin: 30px;
+    border-bottom: 1px solid black;
+}
+
+.section-8-div input::placeholder {
+    padding-left: 20px;
+}
+
+.section-5 {
+    margin: 0px 100px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.down-arrow {
+    width: 10px;
+}
+
+.table td,
+th {
+    border: 1px solid rgba(0, 0, 0, 0.415);
+    padding: 20px
+}
+
+.table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.question {
+    text-align: left;
+}
+
+thead tr {
+    background-color: #09a15d3b;
+}
+
+.table button {
+    padding: 10px;
+    background-color: #09a15d3b;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.agree-button {
+    text-align: center;
+}
+
+.table td {
+    font-weight: 600;
+}
+
+.section-5 h1 {
+    font-weight: 900;
+}
+
+.not-agree-button {
+    display: none;
+}
+
+.agree-button:hover .not-agree-button {
+    display: block;
+}
+
+.not-agree-button-alignment {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+    .nav {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .nav h3 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-1 {
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 0.5em;
+    }
+
+    .section-1 img {
+        width: 100%;
+    }
+
+
+    .section-1 div {
+        align-items: center;
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    .section-2 h1,
+    .section-2 {
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .card1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        gap: 10px
+    }
+
+    .card1 div {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-3 h1 {
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .section3-para {
+        margin: 10px 10px;
+        text-align: center;
+    }
+
+    .section-3 {
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    .card2 {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .card2 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .section-4 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .section-5 {
+        margin: 0;
+    }
+
+    .section-6 {
+        flex-direction: column;
+    }
+
+    .section-6-img img {
+        width: 100%;
+    }
+
+    .section-6-heading {
+        margin: 0;
+    }
+
+    .section-6-card {
+        margin: 20px;
+    }
+
+    .section-6-para,
+    .section-6-para2 {
+
+        margin: 0;
+    }
+
+    .section-6-card {
+        flex-direction: column;
+    }
+
+    .section-6-rightside h1,
+    .section-6-rightside p,
+    .section-6-rightside img,
+    .section-6-rightside button {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .section-6-rightside {
+        display: grid;
+        align-items: center;
+    }
+
+    .card-3 {
+        flex-direction: column;
+        text-align: center;
+    }
+.section-8{margin: 0;}
+    input::placeholder {
+        text-align: center;
+        margin: 0;
+    }
+
+    .other-ammount {
+        width: 80%;
+    }
+
+    footer,
+    footer h1 {
+        text-align: center;
+        margin: 0;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .section-1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-1 div {
+        align-items: center;
+    }
+
+    .card1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card1 div {
+        text-align: center;
+    }
+
+    .card2 {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .section-6 {
+        flex-direction: column;
+    }
+
+    .section-6-heading {
+        margin: 0;
+    }
+
+    .section-6-para,
+    .section-6-para2 {
+
+        margin: 0;
+    }
+
+    .section-6-card {
+        flex-direction: column;
+    }
+
+    .card-3 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    input::placeholder {
+        text-align: center;
+        margin: 0;
+    }
+
+    .other-ammount {
+        width: 80%;
+    }
+
+    footer,
+    footer h1 {
+        text-align: center;
+        margin: 0;
+        flex-direction: column;
+    }
+}
