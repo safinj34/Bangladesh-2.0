@@ -499,6 +499,7 @@ thead tr {
         margin: 0;
         flex-direction: column;
     }
+    .section-6-heading,.section-6-para{margin-left: 10px;}
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -566,4 +567,5 @@ thead tr {
         margin: 0;
         flex-direction: column;
     }
+     .section-6-heading,.section-6-para{margin-left: 10px;}
 }
