@@ -1,5 +1,6 @@
 body {
     background-color: whitesmoke;
+    animation: transition 2s forwards ease-in;
 }
 
 .nav {
@@ -568,5 +569,8 @@ thead tr {
         margin: 0;
         flex-direction: column;
     }
-     .section-6-heading,.section-6-para{margin-left: 10px;}
+     .section-6-heading,.section-6-para{padding: 0px 50px;}
 }
+
+
+@keyframes transition {0%{transform: translateY(-50px);opacity: 0%;}50%{transform: translateY(-25px);opacity: 50%;}100%{transform: translateY(0px);opacity: 100%;}}
